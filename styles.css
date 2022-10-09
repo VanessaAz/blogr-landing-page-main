@@ -134,8 +134,6 @@ header .logo {
     margin-right: 2em;
 }
 
-
-
 .icon-menu, .close-menu {
     display: none;
     height: 20px;
@@ -183,6 +181,7 @@ nav {
     text-decoration: none;
     cursor: pointer;
     font-family: var(--secundary-font);
+    color: var(--headings);
     padding: 5px;
 }
 
@@ -200,7 +199,7 @@ nav {
     right: 6em;
 }
 
-            /* ----------------*/ 
+            /* ---------------- */ 
 
 
 .info-btn_section {
@@ -304,6 +303,12 @@ nav {
 
     .start-btn {
         margin-bottom: 1em;
+    }
+}
+
+@media (min-width: 900px) {
+    .icon-menu {
+        display: none;
     }
 }
 
